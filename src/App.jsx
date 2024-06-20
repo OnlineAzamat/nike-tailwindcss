@@ -1,7 +1,8 @@
-export default function App() {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello World!
-    </h1>
-  )
-}
+const App = () => (
+  <main className="relative">
+    Nav
+    <section className="xl:padding-1 wide:padding-r padding-b">Hero</section>
+  </main>
+);
+
+export default App;
